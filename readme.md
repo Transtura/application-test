@@ -90,10 +90,8 @@ In the tables listed above we have the have an issue the following issues we hav
 Using the Data above, here are the expected deliverables: 
 <br>
 <br>
-### Clone this repo
-<br>
+## Clone this repo
 ### Develop Endpoints using any Auth provider of your choice:
-
 <ol>
     <li>where a rider can book a ride for a trip</li>
     <li>where the driver can see the rider's request and either accept or reject. <br> If accepted, number of available seats is reduced by number of seats booked by the rider</li>
@@ -101,10 +99,11 @@ Using the Data above, here are the expected deliverables:
     <li>that shows status when a rider has completed a trip</li>
     <li>that shows status when a driver has completed a trip</li>
 </ol>
-<br>
+
+
 ### Make a Pull Request with your final solution
-<br>
-### You have until 4pm on Saturday, 20th of November, 2021 for your submission on this repository
+
+## You have until 4pm on Saturday, 20th of November, 2021 for your submission on this repository
 
 
 # NOTE:
