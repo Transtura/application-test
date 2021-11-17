@@ -92,7 +92,7 @@ Using the Data above, here are the expected deliverables:
 <br>
 ### Clone this repo
 <br>
-#### Develop Endpoints using any Auth provider of your choice:
+### Develop Endpoints using any Auth provider of your choice:
 
 <ol>
     <li>where a rider can book a ride for a trip</li>
