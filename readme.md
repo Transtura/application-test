@@ -90,19 +90,25 @@ In the tables listed above we have the have an issue the following issues we hav
 Using the Data above, here are the expected deliverables: 
 <br>
 <br>
-#### Develop Endpoints:
+### Clone this repo
+<br>
+#### Develop Endpoints using any Auth provider of your choice:
 
 <ol>
     <li>where a rider can book a ride for a trip</li>
     <li>where the driver can see the rider's request and either accept or reject. <br> If accepted, number of available seats is reduced by number of seats booked by the rider</li>
     <li>where a bus availability is shown based on the number of available seats in the bus</li>
-    <li>An endpoint where a</li>
     <li>that shows status when a rider has completed a trip</li>
     <li>that shows status when a driver has completed a trip</li>
 </ol>
+<br>
+### Make a Pull Request with your final solution
+<br>
+### You have until 4pm on Saturday, 20th of November, 2021 for your submission on this repository
+
 
 # NOTE:
-> <br> <strong>Use any database of your choice</strong> <br> <strong>Host on any platform of your choice so the endpoints can be tested</strong> <br> <strong>Write a nice and clean documentation using any platform of your choice</strong><br><br>
+> <br> <strong>Use any database of your choice</strong> <br> <strong>Host or Publish on any platform of your choice so the endpoints can be tested</strong> <br> <strong>Write a nice and clean documentation using any platform of your choice</strong><br><br>
 > <strong>Above all, ensure your code is</strong>
 > <ol>
 ><li>Easy to understand</li>
