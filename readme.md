@@ -87,7 +87,7 @@
 </table>
 
 In the tables listed above we have the have an issue the following issues we have is
-Using the Data above, here are the expected deliverables:
+Using the Data above, here are the expected deliverables: <br>
 Develop Endpoints:
 
 <ol>
