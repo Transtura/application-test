@@ -103,7 +103,6 @@ Using the Data above, here are the expected deliverables:
 
 # NOTE:
 > <br> Use any database of your choice <br> Host on any platform of your choice so the endpoints can be tested <br> Write a nice and clean documentation using any platform of your choice 
-> <br> 
 > Above all, ensure your code is 
 > <ol>
 >    <li>Easy to understand</li>
