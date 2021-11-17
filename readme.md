@@ -102,10 +102,10 @@ Using the Data above, here are the expected deliverables:
 </ol>
 
 # NOTE:
-> <br> <strong>Use any database of your choice</strong> <br> <strong>Host on any platform of your choice so the endpoints can be tested</strong> <br> <strong>Write a nice and clean documentation using any platform of your choice</strong><br>
+> <br> <strong>Use any database of your choice</strong> <br> <strong>Host on any platform of your choice so the endpoints can be tested</strong> <br> <strong>Write a nice and clean documentation using any platform of your choice</strong><br><br>
 > <strong>Above all, ensure your code is</strong>
 > <ol>
->    <strong><li>Easy to understand</li></strong><br>
->    <strong><li>Safe from bugs</li></strong><br>
->    <strong><li>Ready for change</li></strong>
+><li>Easy to understand</li>
+><li>Safe from bugs</li>
+><li>Ready for change</li>
 > </ol> 
