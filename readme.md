@@ -105,9 +105,7 @@ Using the Data above, here are the expected deliverables:
 > <br> Use any database of your choice <br> Host on any platform of your choice so the endpoints can be tested <br> Write a nice and clean documentation using any platform of your choice 
 > Above all, ensure your code is 
 > <ol>
->    <strong><li>Easy to understand</li></strong>
-    <br>
->    <strong><li>Safe from bugs</li></strong>
-    <br>
+>    <strong><li>Easy to understand</li></strong><br>
+>    <strong><li>Safe from bugs</li></strong><br>
 >    <strong><li>Ready for change</li></strong>
 > </ol> 
