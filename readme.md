@@ -87,10 +87,16 @@
 </table>
 
 In the tables listed above we have the have an issue the following issues we have is
+Using the Data above, here are the expected deliverables:
+Develop Endpoints:
 
 <ol>
-    <li>if a rider books a ride for a trip we would need to know a bus is available and this availability is based on the seats</li>
-    <li>When a rider(user or passenger) has completed trip</li>
+    <li>where a rider can book a ride for a trip</li>
+    <li>where the driver can see the rider's request and either accept or reject. <br> If accepted, number of available seats is reduced by number of seats booked by the rider</li>
+    <li>where a bus availability is shown based on the number of available seats in the bus</li>
+    <li>An endpoint where a</li>
+    <li>that shows status when a rider has completed a trip</li>
+    <li>that shows status when a driver has completed a trip</li>
 </ol>
 
 > Note <br> use any database of your choice
