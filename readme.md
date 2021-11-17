@@ -99,4 +99,9 @@ Develop Endpoints:
     <li>that shows status when a driver has completed a trip</li>
 </ol>
 
-> Note <br> use any database of your choice
+> Note <br> use any database of your choice <br> Host on any platform of your choice so the endpoints can be tested <br> Write a nice and clean documentation using any platform of your choice <br> Above all, ensure your code is 
+<ol>
+    <li>Easy to understand</li>
+    <li>Safe from bugs</li>
+    <li>Ready for change</li>
+</ol> 
