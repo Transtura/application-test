@@ -8,10 +8,16 @@
  * 
  */
 
+const AuthController = require('../app/controllers/API/AuthController');
+
 const Routes = (Route) => {
   Route.post('/api/v1/inspire', (req, res, next) => {
     return res.status(201).json({ message: 'Hello World!' });
   });
+
+  /* Auth Routes */
+  Route.post('/api/v1/register', AuthController.register);
+  Route.post('/api/v1/login', AuthController.login);
 }
 
 module.exports = Routes;

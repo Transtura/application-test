@@ -1,3 +1,4 @@
+require('dotenv').config();
 const Moment = require('moment');
 
 /**
@@ -22,5 +23,6 @@ module.exports = {
       }
     }
   ],
+  appKey: process.env.APP_KEY,
   password_timeout: Moment().add(5, 'minutes')
 };

@@ -67,7 +67,7 @@ class Kernel {
     }
   }
 
-  static mail() {
+  mail() {
     try {
       const mailService = MailConfig.mailService;
 
