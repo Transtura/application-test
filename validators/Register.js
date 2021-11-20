@@ -13,21 +13,29 @@ class Register extends Base {
       if (Payload.firstName && !super.validateString(Payload.firstName)) {
         this.Response.status = true;
         this.Response.errors.firstName = 'Sorry, Only Alphabets are allowed!';
-      }
+        
+       return this.Response;}
+
 
       if (Payload.lastName && !super.validateString(Payload.lastName)) {
         this.Response.status = true;
         this.Response.errors.lastName = 'Sorry, Only Alphabets are allowed!';
+        
+         return this.Response;
       }
 
       if (Payload.email && !super.validateEmail(Payload.email)) {
         this.Response.status = true;
         this.Response.errors.email = 'Please, check the email address and try again!';
+        
+         return this.Response;
       }
 
       if (Payload.password && Payload.password.length < 8) {
         this.Response.status = true;
         this.Response.errors.password = 'Please, the minimum allowed password characters is 8';
+        
+         return this.Response;
       }
 
       /* Check The Email && Phone Is Unique */
@@ -35,19 +43,25 @@ class Register extends Base {
       if (Email) {
         this.Response.status = true;
         this.Response.errors.email = 'Sorry, The selected email address is unavailable!';
+        
+         return this.Response;
       }
 
       if (Phone) {
         this.Response.status = true;
         this.Response.errors.phone = 'Sorry, The selected phone number is unavailable!';
+        
+         return this.Response;
       }
 
       if (!['user', 'driver'].includes(Payload.accountType)) {
         this.Response.status = true;
         this.Response.errors.accountType = 'Sorry, The account type should either be User or Driver'
+        
+         return this.Response;
       }
 
-      return this.Response;
+      return this.Response = { status: false, errors: {} };
     } catch (err) {
       this.Response.status = true,
       this.Response.errors = { keys: 'Sorry, Please, check your request body and try again!' };
@@ -67,9 +81,11 @@ class Register extends Base {
       if (!User) {
         this.Response.status = true;
         this.Response.errors.user = 'Sorry, Your account seems inactive! Please, contact admin!';
+        
+        return this.Response;
       }
 
-      return this.Response;
+      return this.Response = { status: false, errors: {} };
     } catch (err) {
       this.Response.status = true,
       this.Response.errors = { keys: 'Sorry, Please, check your request body and try again!' };
