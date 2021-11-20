@@ -4,7 +4,8 @@ const Helpers = require('../utils/Helpers');
 
 class Register extends Base {
   constructor() {
-    super();this.Response
+    super();
+    this.Response
     this.Response = { status: false, errors: {} };
   }
 

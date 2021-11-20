@@ -8,7 +8,8 @@ const Statuses = [
   { name: 'Active', createdAt: new Date(), updatedAt: new Date() },
   { name: 'Pending', createdAt: new Date(), updatedAt: new Date() },
   { name: 'In Progress', createdAt: new Date(), updatedAt: new Date() },
-  { name: 'Completed', createdAt: new Date(), updatedAt: new Date() }
+  { name: 'Completed', createdAt: new Date(), updatedAt: new Date() },
+  { name: 'Cancelled', createdAt: new Date(), updatedAt: new Date() }
 ]
 
 /* Migrate Each Of The Statuses. */

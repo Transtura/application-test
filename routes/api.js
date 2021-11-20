@@ -9,6 +9,10 @@
  */
 
 const AuthController = require('../app/controllers/API/AuthController');
+const BookingController = require('../app/controllers/API/BookingController');
+
+/* Middleware Imports */
+const AuthMiddleware = require('../middleware/auth');
 
 const Routes = (Route) => {
   Route.post('/api/v1/inspire', (req, res, next) => {
@@ -18,6 +22,14 @@ const Routes = (Route) => {
   /* Auth Routes */
   Route.post('/api/v1/register', AuthController.register);
   Route.post('/api/v1/login', AuthController.login);
+
+  /* Booking Routes */
+  Route.post('/api/v1/booking/search', AuthMiddleware.verify, BookingController.searchBooking);
+  Route.post('/api/v1/booking', AuthMiddleware.verify, BookingController.makeBooking);
+  Route.get('/api/v1/booking/:bookingId', AuthMiddleware.verify, BookingController.confirmBooking);
+  Route.get('/api/v1/booking/start/:bookingId', AuthMiddleware.verify, BookingController.startBooking);
+  Route.get('/api/v1/booking/complete/:bookingId', AuthMiddleware.verify, BookingController.completeBooking);
+  Route.delete('/api/v1/booking/:bookingId', AuthMiddleware.verify, BookingController.cancelBooking);
 }
 
 module.exports = Routes;
