@@ -15,7 +15,7 @@ const BookingController = require('../app/controllers/API/BookingController');
 const AuthMiddleware = require('../middleware/auth');
 
 const Routes = (Route) => {
-  Route.post('/api/v1/inspire', (req, res, next) => {
+  Route.get('/api/v1/inspire', (req, res, next) => {
     return res.status(201).json({ message: 'Hello World!' });
   });
 
