@@ -12,6 +12,6 @@ const Kernel = require('./bootstrap/kernel');
 /* Run The Application */
 const Transtura = Kernel.application();
 
-Transtura.app.listen(Transtura.appPort, () => {
+Transtura.app.listen(process.env.PORT || Transtura.appPort, () => {
   console.log(Transtura.appName + ' is running on ' + Transtura.appUrl);
 });
