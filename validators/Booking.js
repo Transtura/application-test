@@ -6,8 +6,6 @@ const BusModel = require('../app/models/Bus');
 class Booking extends Base {
   constructor() {
     super();
-
-    this.Response;
     this.Response = { status: false, errors: {} };
   }
 
