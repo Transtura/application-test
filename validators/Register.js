@@ -38,10 +38,9 @@ class Register extends Base {
         this.Response.errors.email = 'Sorry, The selected email address is unavailable!';
       }
 
-      console.log(Phone);
       if (Phone) {
         this.Response.status = true;
-        this.Response.errors.phone = Phone; //'Sorry, The selected phone number is unavailable!';
+        this.Response.errors.phone = 'Sorry, The selected phone number is unavailable!';
       }
 
       if (!['user', 'driver'].includes(Payload.accountType)) {

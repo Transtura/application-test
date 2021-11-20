@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "serve": "node index.js"
   },
   "repository": {
@@ -39,6 +39,7 @@
     "mongoose-paginate-v2": "^1.4.2",
     "morgan": "^1.10.0",
     "nodemailer": "^6.7.1",
+    "nodemon": "^2.0.15",
     "validator": "^13.7.0"
   }
 }
