@@ -123,3 +123,6 @@ Using the Data above, here are the expected deliverables:
 solution
 to run to projection, run yarn to create node module and yarn tsc to compile the project.
 
+api documentation link
+https://documenter.getpostman.com/view/16888063/UVJWpejx
+
