@@ -103,6 +103,8 @@ Using the Data above, here are the expected deliverables:
 
 ### Make a Pull Request with your final solution
 
+
+
 ## You have until 4pm on Saturday, 20th of November, 2021 for your submission on this repository
 
 
@@ -114,3 +116,10 @@ Using the Data above, here are the expected deliverables:
 ><li>Safe from bugs</li>
 ><li>Ready for change</li>
 > </ol> 
+
+
+
+
+solution
+to run to projection, run yarn to create node module and yarn tsc to compile the project.
+
